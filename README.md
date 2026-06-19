@@ -40,13 +40,13 @@ python -m pip install mph
 Run repository verification script:
 
 ```bash
-python /home/runner/work/comsol-mcp/comsol-mcp/verify_comsol_install.py
+python verify_comsol_install.py
 ```
 
 To also test starting COMSOL through `mph`:
 
 ```bash
-python /home/runner/work/comsol-mcp/comsol-mcp/verify_comsol_install.py --check-mph-start
+python verify_comsol_install.py --check-mph-start
 ```
 
 ## Notes
